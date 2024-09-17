@@ -1,0 +1,40 @@
+
+
+/* Font
+----------------------------------------------------------------------------- */
+
+@font-face {
+  src: url("../fonts/Roobert-Medium.woff2") format("woff2");
+  font-family: "Billy Sans";
+  font-style: normal;
+  font-weight: 500;
+}
+
+* {
+  font-family: var(--font--family);
+  font-style: var(--font--style);
+  font-weight: var(--font--weight);
+  font-feature-settings: var(--font--feature-settings);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: var(--font--size-regular);
+  line-height: var(--font--size-regular-line-height);
+}
+
+.numeral-8 {
+  font-feature-settings: var(--font--feature-settings-no-stylized-numeral-8);
+}
+
+.opening-quote-mark {
+  margin-left: var(--font--margin-left-opening-quote-mark);
+}
+
+
+/* Options */
+/* font-feature-settings: "liga", "dlig", "tnum", "frac", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06"; */
+
+/* Compensate for embedded left side space on H */
+/* margin-left: -0.08em; */
